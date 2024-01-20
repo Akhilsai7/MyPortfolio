@@ -33,10 +33,10 @@ setTimeout(function(){
 },1450);
 
 document.getElementById('downloadButton').addEventListener('click', function() {
-  var resumeUrl = 'users/akhilsaibejugama/downloads/AKHIL_SAI_BEJUGAMA_RESUME.pdf'; // Replace with the actual path to your resume file
+  var resumeUrl = 'AkhilBResume.pdf'; // Replace with the actual path to your resume file
   var link = document.createElement('a');
   link.href = resumeUrl;
-  link.download = 'YourResume.pdf'; // Specify the desired filename for the downloaded file
+  link.download = 'AkhilBResume.pdf'; // Specify the desired filename for the downloaded file
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
