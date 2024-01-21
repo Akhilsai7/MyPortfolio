@@ -41,21 +41,3 @@ document.getElementById('downloadButton').addEventListener('click', function() {
   link.click();
   document.body.removeChild(link);
 });
-
-function viewPDF() {
-        // Get the container where the PDF will be embedded
-        var pdfContainer = document.getElementById("pdfContainer");
-
-        // Create an embed element
-        var embedElement = document.createElement("embed");
-
-        // Set the attributes for the embed element
-        embedElement.src = "AkhilBResume.pdf"; 
-        embedElement.type = "application/pdf";
-        embedElement.width = "100%";
-        embedElement.height = "600px";
-
-        // Append the embed element to the PDF container
-        pdfContainer.innerHTML = ''; // Clear existing content
-        pdfContainer.appendChild(embedElement);
-    }
