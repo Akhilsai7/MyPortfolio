@@ -50,7 +50,7 @@ function viewPDF() {
         var embedElement = document.createElement("embed");
 
         // Set the attributes for the embed element
-        embedElement.src = "path/to/your/resume.pdf"; // Replace with the actual path to your PDF
+        embedElement.src = "AkhilBResume.pdf"; 
         embedElement.type = "application/pdf";
         embedElement.width = "100%";
         embedElement.height = "600px";
